@@ -53,7 +53,7 @@ prompt = ["""
     Question: What are the details of passengers booked on flight FL100?
     SQL Answer: SELECT p.first_name, p.last_name, p.email FROM passengers p JOIN bookings b ON p.passenger_id = b.passenger_id JOIN tickets t ON b.booking_id = t.booking_id WHERE t.flight_id = (SELECT flight_id FROM flights WHERE flight_no = 'FL100');
     
-    Ensure that your SQL queries do not include the word 'sql' explicitly in the output and avoid using backticks (`) around table or column names. SQL queries should be clear, concise, and correctly formatted to reflect the structure of the database.
+    also the sql code should not have ``` in beginning or end and sql word in output,Remember, the SQL code should be concise and directly applicable, without extraneous formatting or keywords that aren't part of the query itself.
     """
 ]
 
