@@ -28,7 +28,7 @@ To get started with these projects, you'll need to have Python installed on your
 pip install -r requirements.txt
 ```
 
-For each project, ensure you have the necessary API keys and environment variables set up as per the project's documentation.
+For each project, ensure you have the necessary API keys (Get the google api key from here https://aistudio.google.com/app/apikey) and environment variables set up as per the project's documentation.
 
 ## Running the Applications
 
